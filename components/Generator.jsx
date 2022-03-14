@@ -1,7 +1,6 @@
 import React, { useState , useRef} from 'react'
 
 const Generator = () => {
-
     const [password, setPassword] = useState(null);
     const length = useRef(8);
     const [success, setsuccess] = useState(false);
